@@ -108,25 +108,25 @@
 
 
 
-  <meta name="description" content="安装polymer-cli 工具首先先安装nodejs ,然后利用npm进行安装polymer   1sudo npm  install -y polymer-cli --unsafe-perm  如果不加上–unsafe-perm 可能会报错  创建一个polymer项目12polymer init #将文件夹初始化为polymer项目polymer serve # 启动服务  这样就可以创建一">
-<meta name="keywords" content="polymer">
+  <meta name="description" content="自定义AntDesign的form表单组件12345678910111213141516171819202122232425262728293031323334353637383940414243import React, &amp;#123; Component &amp;#125; from &apos;react&apos;;import &amp;#123; connect &amp;#125; from &apos;dva&apos;;import &amp;#12">
+<meta name="keywords" content="react">
 <meta property="og:type" content="article">
-<meta property="og:title" content="polymer 学习笔记">
-<meta property="og:url" content="http://yoursite.com/2018/08/06/polymer/index.html">
+<meta property="og:title" content="ant_design">
+<meta property="og:url" content="http://yoursite.com/2018/10/17/ant-design/index.html">
 <meta property="og:site_name" content="张尽的个人博客">
-<meta property="og:description" content="安装polymer-cli 工具首先先安装nodejs ,然后利用npm进行安装polymer   1sudo npm  install -y polymer-cli --unsafe-perm  如果不加上–unsafe-perm 可能会报错  创建一个polymer项目12polymer init #将文件夹初始化为polymer项目polymer serve # 启动服务  这样就可以创建一">
+<meta property="og:description" content="自定义AntDesign的form表单组件12345678910111213141516171819202122232425262728293031323334353637383940414243import React, &amp;#123; Component &amp;#125; from &apos;react&apos;;import &amp;#123; connect &amp;#125; from &apos;dva&apos;;import &amp;#12">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-08-06T03:59:45.411Z">
+<meta property="og:updated_time" content="2018-10-17T03:02:10.899Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="polymer 学习笔记">
-<meta name="twitter:description" content="安装polymer-cli 工具首先先安装nodejs ,然后利用npm进行安装polymer   1sudo npm  install -y polymer-cli --unsafe-perm  如果不加上–unsafe-perm 可能会报错  创建一个polymer项目12polymer init #将文件夹初始化为polymer项目polymer serve # 启动服务  这样就可以创建一">
+<meta name="twitter:title" content="ant_design">
+<meta name="twitter:description" content="自定义AntDesign的form表单组件12345678910111213141516171819202122232425262728293031323334353637383940414243import React, &amp;#123; Component &amp;#125; from &apos;react&apos;;import &amp;#123; connect &amp;#125; from &apos;dva&apos;;import &amp;#12">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/08/06/polymer/"/>
+  <link rel="canonical" href="http://yoursite.com/2018/10/17/ant-design/"/>
 
 
 
@@ -136,7 +136,7 @@
   };
 </script>
 
-  <title>polymer 学习笔记 | 张尽的个人博客</title>
+  <title>ant_design | 张尽的个人博客</title>
   
 
 
@@ -281,7 +281,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/08/06/polymer/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/10/17/ant-design/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="zhangj">
@@ -298,7 +298,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">polymer 学习笔记
+          <h1 class="post-title" itemprop="name headline">ant_design
               
             
           </h1>
@@ -323,7 +323,7 @@
                 
               
 
-              <time title="创建时间：2018-08-06 11:44:43 / 修改时间：11:59:45" itemprop="dateCreated datePublished" datetime="2018-08-06T11:44:43+08:00">2018-08-06</time>
+              <time title="创建时间：2018-10-17 10:50:08 / 修改时间：11:02:10" itemprop="dateCreated datePublished" datetime="2018-10-17T10:50:08+08:00">2018-10-17</time>
             
 
             
@@ -361,14 +361,15 @@
       
 
       
-        <h3 id="安装polymer-cli-工具"><a href="#安装polymer-cli-工具" class="headerlink" title="安装polymer-cli 工具"></a>安装polymer-cli 工具</h3><p>首先先安装nodejs ,然后利用npm进行安装polymer  </p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo npm  install -y polymer-cli --unsafe-perm</span><br></pre></td></tr></table></figure>
+        <h3 id="自定义AntDesign的form表单组件"><a href="#自定义AntDesign的form表单组件" class="headerlink" title="自定义AntDesign的form表单组件"></a>自定义AntDesign的form表单组件</h3><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> React, &#123; Component &#125; <span class="keyword">from</span> <span class="string">'react'</span>;</span><br><span class="line"><span class="keyword">import</span> &#123; connect &#125; <span class="keyword">from</span> <span class="string">'dva'</span>;</span><br><span class="line"><span class="keyword">import</span> &#123; Select &#125; <span class="keyword">from</span> <span class="string">'antd'</span>;</span><br><span class="line"></span><br><span class="line"><span class="keyword">const</span> &#123; Option &#125; = Select;</span><br><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * 渲染修改菜单的Cell</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line">@connect(<span class="function">(<span class="params">&#123; menu &#125;</span>) =&gt;</span> (&#123;</span><br><span class="line">  roleOption: menu.roleOption,</span><br><span class="line">&#125;))</span><br><span class="line"><span class="keyword">export</span> <span class="keyword">default</span> <span class="class"><span class="keyword">class</span> <span class="title">RoleDropDown</span> <span class="keyword">extends</span> <span class="title">Component</span> </span>&#123;</span><br><span class="line">  componentDidMount() &#123;</span><br><span class="line">    <span class="keyword">const</span> self = <span class="keyword">this</span>;</span><br><span class="line">    <span class="keyword">this</span>.props.dispatch(&#123;</span><br><span class="line">      type: <span class="string">'menu/fetchGetRoleAll'</span>,</span><br><span class="line">      payload: &#123;</span><br><span class="line">      &#125;,</span><br><span class="line">    &#125;).then(<span class="function"><span class="params">()</span> =&gt;</span> &#123;</span><br><span class="line">      self.defaultValue = self.props.value || self.props.roleOption[<span class="number">0</span>].id;</span><br><span class="line">    &#125;);</span><br><span class="line">  &#125;</span><br><span class="line"></span><br><span class="line">  getOption() &#123;</span><br><span class="line">    <span class="keyword">return</span> <span class="keyword">this</span>.props.roleOption.map(<span class="function">(<span class="params">data</span>) =&gt;</span> &#123;</span><br><span class="line">      <span class="keyword">return</span> (&lt;Option value=&#123;data.id&#125; key=&#123;data.id&#125;&gt; &#123;data.roleName&#125; &lt;/Option&gt;);</span><br><span class="line">    &#125;);</span><br><span class="line">  &#125;</span><br><span class="line">  render() &#123;</span><br><span class="line">    <span class="keyword">return</span> (</span><br><span class="line">      &lt;Select</span><br><span class="line">        style=&#123;&#123; <span class="attr">width</span>: <span class="number">200</span> &#125;&#125;</span><br><span class="line">        value=&#123;<span class="keyword">this</span>.defaultValue&#125;</span><br><span class="line">        onChange=&#123;(value) =&gt; &#123;</span><br><span class="line">            <span class="keyword">this</span>.defaultValue = value;</span><br><span class="line">            <span class="keyword">this</span>.props.onChange(value);</span><br><span class="line">        &#125;&#125;</span><br><span class="line">      &gt;</span><br><span class="line">        &#123; <span class="keyword">this</span>.getOption() &#125;</span><br><span class="line">      &lt;<span class="regexp">/Select&gt;</span></span><br><span class="line"><span class="regexp">    );</span></span><br><span class="line"><span class="regexp">  &#125;</span></span><br><span class="line"><span class="regexp">&#125;</span></span><br></pre></td></tr></table></figure>
+<p>当用户创建自定义的Form表单的时候无法进行在Form表单里面进行采用<strong>this.props.form.validateFields</strong> 也无法获取对于的之，并且在<br>子组件中进行修改也无法反馈到Form组件中</p>
+<p>主要是两个方面  </p>
+<ol>
+<li>this.props.value 这个是在Form表单中的 initialValue 属性的默认值</li>
+<li>this.props.onChange 这表示改变后反馈给Form表单</li>
+</ol>
 <blockquote>
-<p>如果不加上–unsafe-perm 可能会报错</p>
-</blockquote>
-<h3 id="创建一个polymer项目"><a href="#创建一个polymer项目" class="headerlink" title="创建一个polymer项目"></a>创建一个polymer项目</h3><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">polymer init #将文件夹初始化为polymer项目</span><br><span class="line">polymer serve # 启动服务</span><br></pre></td></tr></table></figure>
-<blockquote>
-<p>这样就可以创建一个polymer的hello world</p>
+<p>注意: defaultValue默认属性是无法进行设置的,暂时的解决方案是采用onChange来改变value的值</p>
 </blockquote>
 
       
@@ -390,7 +391,7 @@
       
         <div class="post-tags">
           
-            <a href="/tags/polymer/" rel="tag"># polymer</a>
+            <a href="/tags/react/" rel="tag"># react</a>
           
         </div>
       
@@ -403,8 +404,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/07/24/docker/" rel="next" title="Docker 笔记">
-                <i class="fa fa-chevron-left"></i> Docker 笔记
+              <a href="/2018/10/08/mysql/" rel="next" title="mysql">
+                <i class="fa fa-chevron-left"></i> mysql
               </a>
             
           </div>
@@ -412,10 +413,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/10/08/mysql/" rel="prev" title="mysql">
-                mysql <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -550,7 +547,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#安装polymer-cli-工具"><span class="nav-number">1.</span> <span class="nav-text">安装polymer-cli 工具</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#创建一个polymer项目"><span class="nav-number">2.</span> <span class="nav-text">创建一个polymer项目</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#自定义AntDesign的form表单组件"><span class="nav-number">1.</span> <span class="nav-text">自定义AntDesign的form表单组件</span></a></li></ol></div>
             
 
           </div>
