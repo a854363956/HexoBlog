@@ -108,25 +108,24 @@
 
 
 
-  <meta name="description" content="Docker save  命令语法1docker save [OPTIONS] IMAGE [IMAGE...] OPTIONS说明：  -o 输出到的文件    实例   将镜像runoob/ubuntu:v3 生成my_ubuntu_v3.tar的本地tar   1sudo docker save -o my_ubuntu_v3.tar runoob/ubuntu:v3 Docker load">
-<meta name="keywords" content="虚拟化容器">
+  <meta name="description" content="接口平台开发功能模块. +-- 系统设计文档 +-- 开发环境搭建 |   +-- 后台环境搭建 |   +-- 前段环境搭建 |   +-- 数据库表结构设计 +-- 开发模块 |   +-- 基础模块 |   |   +-- 用户维护 |   |   +-- 角色维护 |   |   +-- 菜单维护 |   +-- 权限模块 |   |   +-- 菜单权限维护 |   |   +-- Re">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Docker 笔记">
-<meta property="og:url" content="http://yoursite.com/2018/07/24/docker/index.html">
+<meta property="og:title" content="接口平台开发计划">
+<meta property="og:url" content="http://yoursite.com/2019/02/15/working/index.html">
 <meta property="og:site_name" content="个人博客">
-<meta property="og:description" content="Docker save  命令语法1docker save [OPTIONS] IMAGE [IMAGE...] OPTIONS说明：  -o 输出到的文件    实例   将镜像runoob/ubuntu:v3 生成my_ubuntu_v3.tar的本地tar   1sudo docker save -o my_ubuntu_v3.tar runoob/ubuntu:v3 Docker load">
+<meta property="og:description" content="接口平台开发功能模块. +-- 系统设计文档 +-- 开发环境搭建 |   +-- 后台环境搭建 |   +-- 前段环境搭建 |   +-- 数据库表结构设计 +-- 开发模块 |   +-- 基础模块 |   |   +-- 用户维护 |   |   +-- 角色维护 |   |   +-- 菜单维护 |   +-- 权限模块 |   |   +-- 菜单权限维护 |   |   +-- Re">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2018-07-27T04:34:58.000Z">
+<meta property="og:updated_time" content="2019-02-15T07:05:02.926Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Docker 笔记">
-<meta name="twitter:description" content="Docker save  命令语法1docker save [OPTIONS] IMAGE [IMAGE...] OPTIONS说明：  -o 输出到的文件    实例   将镜像runoob/ubuntu:v3 生成my_ubuntu_v3.tar的本地tar   1sudo docker save -o my_ubuntu_v3.tar runoob/ubuntu:v3 Docker load">
+<meta name="twitter:title" content="接口平台开发计划">
+<meta name="twitter:description" content="接口平台开发功能模块. +-- 系统设计文档 +-- 开发环境搭建 |   +-- 后台环境搭建 |   +-- 前段环境搭建 |   +-- 数据库表结构设计 +-- 开发模块 |   +-- 基础模块 |   |   +-- 用户维护 |   |   +-- 角色维护 |   |   +-- 菜单维护 |   +-- 权限模块 |   |   +-- 菜单权限维护 |   |   +-- Re">
 
 
 
 
 
 
-  <link rel="canonical" href="http://yoursite.com/2018/07/24/docker/"/>
+  <link rel="canonical" href="http://yoursite.com/2019/02/15/working/"/>
 
 
 
@@ -136,7 +135,7 @@
   };
 </script>
 
-  <title>Docker 笔记 | 个人博客</title>
+  <title>接口平台开发计划 | 个人博客</title>
   
 
 
@@ -285,7 +284,7 @@
   
   
   <div class="post-block">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2018/07/24/docker/">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/02/15/working/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
       <meta itemprop="name" content="zhangj">
@@ -302,7 +301,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">Docker 笔记
+          <h1 class="post-title" itemprop="name headline">接口平台开发计划
               
             
           </h1>
@@ -327,24 +326,12 @@
                 
               
 
-              <time title="创建时间：2018-07-24 09:57:15" itemprop="dateCreated datePublished" datetime="2018-07-24T09:57:15+08:00">2018-07-24</time>
+              <time title="创建时间：2019-02-15 15:04:13 / 修改时间：15:05:02" itemprop="dateCreated datePublished" datetime="2019-02-15T15:04:13+08:00">2019-02-15</time>
             
 
             
               
 
-              
-                
-                <span class="post-meta-divider">|</span>
-                
-
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-calendar-check-o"></i>
-                </span>
-                
-                  <span class="post-meta-item-text">更新于</span>
-                
-                <time title="修改时间：2018-07-27 12:34:58" itemprop="dateModified" datetime="2018-07-27T12:34:58+08:00">2018-07-27</time>
               
             
           </span>
@@ -377,23 +364,274 @@
       
 
       
-        <h3 id="Docker-save-命令"><a href="#Docker-save-命令" class="headerlink" title="Docker save  命令"></a>Docker save  命令</h3><p>语法<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker save [OPTIONS] IMAGE [IMAGE...]</span><br></pre></td></tr></table></figure></p>
-<p>OPTIONS说明：</p>
-<ul>
-<li>-o 输出到的文件  </li>
-</ul>
-<p>实例  </p>
-<p>将镜像runoob/ubuntu:v3 生成my_ubuntu_v3.tar的本地tar  </p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker save -o my_ubuntu_v3.tar runoob/ubuntu:v3</span><br></pre></td></tr></table></figure>
-<h3 id="Docker-load-命令"><a href="#Docker-load-命令" class="headerlink" title="Docker load 命令"></a>Docker load 命令</h3><p>语法<br><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">docker load [OPTIONS]</span><br></pre></td></tr></table></figure></p>
-<p>OPTIONS说明：  </p>
-<ul>
-<li>-i 从tar归档文件中读取镜像,而不是标准流输入流</li>
-<li>-q 禁止读入输出</li>
-</ul>
-<p>实例  </p>
-<p>将my_ubuntu_v3.tar恢复到其他电脑上的Docker中</p>
-<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker load -i my_ubuntu_v3.tar</span><br></pre></td></tr></table></figure>
+        <h3 id="接口平台开发功能模块"><a href="#接口平台开发功能模块" class="headerlink" title="接口平台开发功能模块"></a>接口平台开发功能模块</h3><pre><code class="base">.
++-- 系统设计文档
++-- 开发环境搭建
+|   +-- 后台环境搭建
+|   +-- 前段环境搭建
+|   +-- 数据库表结构设计
++-- 开发模块
+|   +-- 基础模块
+|   |   +-- 用户维护
+|   |   +-- 角色维护
+|   |   +-- 菜单维护
+|   +-- 权限模块
+|   |   +-- 菜单权限维护
+|   |   +-- Restful权限维护
+|   +-- 接口平台模块
+|   |   +-- 策略管理模块
+|   |   |   +-- Link注册管理
+|   |   +-- 插件管理模块 
+|   |   |   +-- 配置协议插件
+|   |   +-- 系统日志模块  
+|   |   |   +-- 链路跟踪
+|   |   |   +-- 异常日志
+|   |   |   +-- 执行日志
+|   |   +-- 监控预警模块
+|   |   |   +-- 接口QPS报表
+|   |   |   +-- 接口成功率报表
+
+</code></pre>
+<h3 id="开发计划时间"><a href="#开发计划时间" class="headerlink" title="开发计划时间"></a>开发计划时间</h3><table>
+<thead>
+<tr>
+<th>总模块</th>
+<th>子模块</th>
+<th>预计完成时间</th>
+<th>状态</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>系统设计文档</td>
+<td>-</td>
+<td>-</td>
+<td>-</td>
+</tr>
+<tr>
+<td></td>
+<td>后台设计文档</td>
+<td>未知</td>
+<td>等待</td>
+<td>暂时不编写设计文档</td>
+</tr>
+<tr>
+<td></td>
+<td>表结构设计文档</td>
+<td>未知</td>
+<td>等待</td>
+<td>暂时不编写设计文档</td>
+</tr>
+<tr>
+<td></td>
+<td>数据库建模</td>
+<td>未知</td>
+<td>进行中</td>
+<td>正在编写基础框架的数据库建模</td>
+</tr>
+<tr>
+<td></td>
+<td>后台UML建模</td>
+<td>未知</td>
+<td>等待</td>
+<td>暂时不进行对后台框架UML建模</td>
+</tr>
+<tr>
+<td></td>
+<td>前段组件建模</td>
+<td>未知</td>
+<td>等待</td>
+<td>暂时不进行对前段UI建模</td>
+</tr>
+<tr>
+<td>———-</td>
+<td>————</td>
+<td>———-</td>
+<td>——-</td>
+<td>————-</td>
+</tr>
+<tr>
+<td>开发环境搭建</td>
+<td>——</td>
+<td>—-</td>
+<td>—–</td>
+<td>—– </td>
+</tr>
+<tr>
+<td></td>
+<td>后台环境搭建</td>
+<td>2019/2/22</td>
+<td>进行中</td>
+<td>后端环境基础框架 2019/2/15-2019/2/22 的主要工作</td>
+</tr>
+<tr>
+<td></td>
+<td>前段环境搭建</td>
+<td>2019/2/22</td>
+<td>进行中</td>
+<td>前段环境基础框架 2019/2/15-2019/2/22 的主要工作</td>
+</tr>
+<tr>
+<td></td>
+<td>数据库表结构设计</td>
+<td>2019/2/22</td>
+<td>进行中</td>
+<td>数据库表结构设计 2019/2/15-2019/2/22 的主要工作</td>
+</tr>
+<tr>
+<td>——</td>
+<td>——</td>
+<td>———</td>
+<td>—–</td>
+<td>————-</td>
+</tr>
+<tr>
+<td>开发模块</td>
+<td>——-</td>
+<td>——–</td>
+<td>—–</td>
+<td>————-</td>
+</tr>
+<tr>
+<td></td>
+<td>基础模块</td>
+<td>2019/3/1</td>
+<td>等待</td>
+</tr>
+<tr>
+<td></td>
+<td>权限模块</td>
+<td>2019/3/8</td>
+<td>等待</td>
+</tr>
+<tr>
+<td></td>
+<td>策略管理模块</td>
+<td>2019/4/1</td>
+<td>等待</td>
+</tr>
+<tr>
+<td></td>
+<td>插件管理模块</td>
+<td>2019/4/12</td>
+<td>等待</td>
+</tr>
+<tr>
+<td></td>
+<td>系统日志模块</td>
+<td>2019/4/26</td>
+<td>等待</td>
+</tr>
+<tr>
+<td></td>
+<td>监控预警模块</td>
+<td>2019/5/10</td>
+<td>等待</td>
+</tr>
+</tbody>
+</table>
+<h4 id="二月份主要工作-状态-未完成"><a href="#二月份主要工作-状态-未完成" class="headerlink" title="二月份主要工作 状态-未完成"></a>二月份主要工作 状态-未完成</h4><table>
+<thead>
+<tr>
+<th>总模块</th>
+<th>子模块</th>
+<th>预计完成时间</th>
+<th>状态</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>开发环境搭建</td>
+<td>——</td>
+<td>—-</td>
+<td>—–</td>
+<td>—– </td>
+</tr>
+<tr>
+<td></td>
+<td>后台环境搭建</td>
+<td>2019/2/22</td>
+<td>进行中</td>
+<td>后端环境基础框架 2019/2/15-2019/2/22 的主要工作</td>
+</tr>
+<tr>
+<td></td>
+<td>前段环境搭建</td>
+<td>2019/2/22</td>
+<td>进行中</td>
+<td>前段环境基础框架 2019/2/15-2019/2/22 的主要工作</td>
+</tr>
+<tr>
+<td></td>
+<td>数据库表结构设计</td>
+<td>2019/2/22</td>
+<td>进行中</td>
+<td>数据库表结构设计 2019/2/15-2019/2/22 的主要工作</td>
+</tr>
+</tbody>
+</table>
+<h4 id="三月份主要工作-状态-未完成"><a href="#三月份主要工作-状态-未完成" class="headerlink" title="三月份主要工作 状态-未完成"></a>三月份主要工作 状态-未完成</h4><table>
+<thead>
+<tr>
+<th>总模块</th>
+<th>子模块</th>
+<th>预计完成时间</th>
+<th>状态</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>基础模块</td>
+<td>2019/3/1</td>
+<td>等待</td>
+</tr>
+<tr>
+<td></td>
+<td>权限模块</td>
+<td>2019/3/8</td>
+<td>等待</td>
+</tr>
+</tbody>
+</table>
+<h4 id="四月份主要工作-状态-未完成"><a href="#四月份主要工作-状态-未完成" class="headerlink" title="四月份主要工作 状态-未完成"></a>四月份主要工作 状态-未完成</h4><table>
+<thead>
+<tr>
+<th>总模块</th>
+<th>子模块</th>
+<th>预计完成时间</th>
+<th>状态</th>
+<th>备注</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td></td>
+<td>策略管理模块</td>
+<td>2019/4/1</td>
+<td>等待</td>
+</tr>
+<tr>
+<td></td>
+<td>插件管理模块</td>
+<td>2019/4/12</td>
+<td>等待</td>
+</tr>
+<tr>
+<td></td>
+<td>系统日志模块</td>
+<td>2019/4/26</td>
+<td>等待</td>
+</tr>
+</tbody>
+</table>
+<h4 id="五月份主要工作-状态-未完成"><a href="#五月份主要工作-状态-未完成" class="headerlink" title="五月份主要工作 状态-未完成"></a>五月份主要工作 状态-未完成</h4><p>|开发模块     |——-         |——–      |—–     |————-<br>|             |监控预警模块    |2019/5/10      |等待      |    </p>
+<blockquote>
+<p>五月份主要整体的系统测试,以及业务模块编写</p>
+</blockquote>
 
       
     </div>
@@ -412,12 +650,6 @@
 
     <footer class="post-footer">
       
-        <div class="post-tags">
-          
-            <a href="/tags/虚拟化容器/" rel="tag"># 虚拟化容器</a>
-          
-        </div>
-      
 
       
       
@@ -427,8 +659,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/07/24/liunx/" rel="next" title="Liunx 命令笔记">
-                <i class="fa fa-chevron-left"></i> Liunx 命令笔记
+              <a href="/2019/02/15/jpa/" rel="next" title="Spring Boot JPA 配置">
+                <i class="fa fa-chevron-left"></i> Spring Boot JPA 配置
               </a>
             
           </div>
@@ -436,10 +668,6 @@
           <span class="post-nav-divider"></span>
 
           <div class="post-nav-prev post-nav-item">
-            
-              <a href="/2018/08/06/polymer/" rel="prev" title="polymer 学习笔记">
-                polymer 学习笔记 <i class="fa fa-chevron-right"></i>
-              </a>
             
           </div>
         </div>
@@ -576,7 +804,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker-save-命令"><span class="nav-number">1.</span> <span class="nav-text">Docker save  命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker-load-命令"><span class="nav-number">2.</span> <span class="nav-text">Docker load 命令</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#接口平台开发功能模块"><span class="nav-number">1.</span> <span class="nav-text">接口平台开发功能模块</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#开发计划时间"><span class="nav-number">2.</span> <span class="nav-text">开发计划时间</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#二月份主要工作-状态-未完成"><span class="nav-number">2.1.</span> <span class="nav-text">二月份主要工作 状态-未完成</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#三月份主要工作-状态-未完成"><span class="nav-number">2.2.</span> <span class="nav-text">三月份主要工作 状态-未完成</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#四月份主要工作-状态-未完成"><span class="nav-number">2.3.</span> <span class="nav-text">四月份主要工作 状态-未完成</span></a></li><li class="nav-item nav-level-4"><a class="nav-link" href="#五月份主要工作-状态-未完成"><span class="nav-number">2.4.</span> <span class="nav-text">五月份主要工作 状态-未完成</span></a></li></ol></li></ol></div>
             
 
           </div>
