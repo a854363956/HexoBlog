@@ -116,7 +116,7 @@
 <meta property="og:site_name" content="个人博客">
 <meta property="og:description" content="Docker save  命令语法1docker save [OPTIONS] IMAGE [IMAGE...] OPTIONS说明：  -o 输出到的文件    实例   将镜像runoob/ubuntu:v3 生成my_ubuntu_v3.tar的本地tar   1sudo docker save -o my_ubuntu_v3.tar runoob/ubuntu:v3 Docker load">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:updated_time" content="2019-03-01T06:33:31.428Z">
+<meta property="og:updated_time" content="2019-03-11T05:42:22.758Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Docker 笔记">
 <meta name="twitter:description" content="Docker save  命令语法1docker save [OPTIONS] IMAGE [IMAGE...] OPTIONS说明：  -o 输出到的文件    实例   将镜像runoob/ubuntu:v3 生成my_ubuntu_v3.tar的本地tar   1sudo docker save -o my_ubuntu_v3.tar runoob/ubuntu:v3 Docker load">
@@ -344,7 +344,7 @@
                 
                   <span class="post-meta-item-text">更新于</span>
                 
-                <time title="修改时间：2019-03-01 14:33:31" itemprop="dateModified" datetime="2019-03-01T14:33:31+08:00">2019-03-01</time>
+                <time title="修改时间：2019-03-11 13:42:22" itemprop="dateModified" datetime="2019-03-11T13:42:22+08:00">2019-03-11</time>
               
             
           </span>
@@ -399,6 +399,13 @@
 </blockquote>
 <figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker run -d --name confluence -p 8090:8090  --link mysql  cptactionhank/atlassian-confluence:6.6.2</span><br></pre></td></tr></table></figure>
 <p>那么在confluence容器中即可使用mysql来替代ip地址</p>
+<h3 id="Docker-network-命令"><a href="#Docker-network-命令" class="headerlink" title="Docker network  命令"></a>Docker network  命令</h3><p>创建网络</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker network create vpn</span><br></pre></td></tr></table></figure>
+<h4 id="加入网络"><a href="#加入网络" class="headerlink" title="加入网络"></a>加入网络</h4><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">sudo docker run -d -p 58080:8080--name bvrfis --network vpn --network-alias bvrfis-net tomcat:7.0</span><br></pre></td></tr></table></figure>
+<ul>
+<li>–network 加入指定的网络</li>
+<li>–network-alias 加入网络的别名</li>
+</ul>
 
       
     </div>
@@ -432,8 +439,8 @@
         <div class="post-nav">
           <div class="post-nav-next post-nav-item">
             
-              <a href="/2018/07/24/liunx/" rel="next" title="Liunx 命令笔记">
-                <i class="fa fa-chevron-left"></i> Liunx 命令笔记
+              <a href="/2018/07/24/rfc1928/" rel="next" title="RFC1928 协议">
+                <i class="fa fa-chevron-left"></i> RFC1928 协议
               </a>
             
           </div>
@@ -514,7 +521,7 @@
                 
                   <a href="/archives/">
                 
-                    <span class="site-state-item-count">12</span>
+                    <span class="site-state-item-count">14</span>
                     <span class="site-state-item-name">日志</span>
                   </a>
                 </div>
@@ -585,7 +592,7 @@
             
 
             
-              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker-save-命令"><span class="nav-number">1.</span> <span class="nav-text">Docker save  命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker-load-命令"><span class="nav-number">2.</span> <span class="nav-text">Docker load 命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker-link-命令"><span class="nav-number">3.</span> <span class="nav-text">Docker link 命令</span></a></li></ol></div>
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker-save-命令"><span class="nav-number">1.</span> <span class="nav-text">Docker save  命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker-load-命令"><span class="nav-number">2.</span> <span class="nav-text">Docker load 命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker-link-命令"><span class="nav-number">3.</span> <span class="nav-text">Docker link 命令</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Docker-network-命令"><span class="nav-number">4.</span> <span class="nav-text">Docker network  命令</span></a><ol class="nav-child"><li class="nav-item nav-level-4"><a class="nav-link" href="#加入网络"><span class="nav-number">4.1.</span> <span class="nav-text">加入网络</span></a></li></ol></li></ol></div>
             
 
           </div>
